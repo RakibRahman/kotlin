@@ -14,3 +14,8 @@
 
 - sets are unordered and only store unique items.
 - As sets are unordered, you can't access an item at a particular index.
+
+# Map
+
+- Maps store items as key-value pairs. Access item with key.
+- Key must be unique but duplicate values are allowed.
