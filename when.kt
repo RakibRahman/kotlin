@@ -15,6 +15,17 @@ fun checkTrafficAction(str: String): String {
     return trafficAction
 }
 
+fun buttonAction(btn: String): String {
+    val action = when (btn) {
+        "A" -> "Yes"
+        "B" -> "No"
+        "X" -> "Menu"
+        "Y" -> "Nothing"
+        else -> "There is no such button"
+    }
+    return action;
+}
+
 fun main() {     // when as a statement
     when (framwork) {
         "vue" -> println("vue")
@@ -29,6 +40,10 @@ fun main() {     // when as a statement
         else -> "unknown"
     }
     println(result)
-
     println(checkTrafficAction(trafficLightState))
+    println(buttonAction("A"));
+    println(buttonAction("Y"));
+    println(buttonAction("X"));
+    println(buttonAction("B"));
+    println(buttonAction("LB"))
 }
