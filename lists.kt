@@ -1,21 +1,23 @@
 // Read only list
-val fruits:List<String> = listOf("Banana","Mango")
+val fruits: List<String> = listOf("Banana", "Mango")
 
-val games:MutableList<String> = mutableListOf("Witcher 3","Uncharted","Far Cry","WWE");
+val games: MutableList<String> = mutableListOf("Witcher 3", "Uncharted", "Far Cry", "WWE");
 
-val names:MutableList<String> = mutableListOf("John","Peter","Jane")
+val names: MutableList<String> = mutableListOf("John", "Peter", "Jane")
 
-fun addGame(game:String){
+val lockedNames: List<String> = names; // create readOnly of mutable list
+
+fun addGame(game: String) {
     println("$game added to the list")
     games.add(game)
 }
 
-fun removeGame(game:String){
+fun removeGame(game: String) {
     println("$game removed from the list")
     games.remove(game)
 }
 
-fun main(){
+fun main() {
     names.add("nusaiba")
     println("First Name ${names.first()}")
     println("----")
