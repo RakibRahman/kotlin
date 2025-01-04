@@ -1,6 +1,7 @@
 # kotlin
 
 # Variables
+
 - Read-only variables with val
 - Mutable variables with var
 
@@ -8,7 +9,6 @@
 
 - Lists store items in the order that they are added, and allow for duplicate items.
 - Item can be accessed with index
-
 
 # Set
 
@@ -28,13 +28,22 @@
 
 # When
 
-- when can be used either as a statement or as an expression. A statement doesn't return anything but performs actions instead.
+- when can be used either as a statement or as an expression. A statement doesn't return anything but performs actions
+  instead.
 - An expression returns a value that can be used later in your code.
 
 # Lambda Expressions
+
 Kotlin allows you to write even more concise code for functions by using lambda expressions.
 Lambda expressions can be used in a number of ways. You can:
 
 - Pass a lambda expression as a parameter to another function
 - Return a lambda expression from a function
 - Invoke a lambda expression on its own
+
+# Trailing lambdas
+
+- If a lambda expression is the only function parameter, you can drop the function parentheses ()
+- If a lambda expression is passed as the last parameter of a function, then the expression can be written outside the
+  function parentheses (). 
+In both cases, this syntax is called a `trailing lambda`.
