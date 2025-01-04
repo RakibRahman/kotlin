@@ -26,6 +26,12 @@ fun toSeconds(time: String): (Int) -> Int = when (time) {
     else -> { value -> value }
 }
 
+fun timeConverter() {
+    val timesInMinutes = listOf(2, 10, 15, 1);
+    val min2sec = toSeconds("minute");
+    val totalTimeInSeconds = timesInMinutes.map(min2sec).sum();
+    println("Total time is $totalTimeInSeconds secs")
+}
 
 fun main() {
     println(uppercaseString("rakib"))
@@ -33,4 +39,5 @@ fun main() {
     println(positiveNumbers)
     println(negativeNumbers)
     println(tripledNumbers)
+    timeConverter()
 }
