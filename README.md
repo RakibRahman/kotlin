@@ -32,6 +32,7 @@
 - An expression returns a value that can be used later in your code.
 
 # Lambda Expressions
+Kotlin allows you to write even more concise code for functions by using lambda expressions.
 Lambda expressions can be used in a number of ways. You can:
 
 - Pass a lambda expression as a parameter to another function
