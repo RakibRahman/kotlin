@@ -30,3 +30,10 @@
 
 - when can be used either as a statement or as an expression. A statement doesn't return anything but performs actions instead.
 - An expression returns a value that can be used later in your code.
+
+# Lambda Expressions
+Lambda expressions can be used in a number of ways. You can:
+
+- Pass a lambda expression as a parameter to another function
+- Return a lambda expression from a function
+- Invoke a lambda expression on its own
