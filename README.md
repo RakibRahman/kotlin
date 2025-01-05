@@ -80,3 +80,7 @@ instances, and more
 ```
 data class User(val name: String, val id: Int)
 ```
+
+# Null safety
+
+- Kotlin uses null values when something is missing or not yet set.
