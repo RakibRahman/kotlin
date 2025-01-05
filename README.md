@@ -45,5 +45,38 @@ Lambda expressions can be used in a number of ways. You can:
 
 - If a lambda expression is the only function parameter, you can drop the function parentheses ()
 - If a lambda expression is passed as the last parameter of a function, then the expression can be written outside the
-  function parentheses (). 
-In both cases, this syntax is called a `trailing lambda`.
+  function parentheses ().
+  In both cases, this syntax is called a `trailing lambda`.
+
+# Class
+
+Kotlin supports object-oriented programming with classes and objects. Objects are useful for storing data in your
+program. Classes allow you to declare a set of characteristics for an object. When you create objects from a class, you
+can save time and effort because you don't have to declare these characteristics every time.
+
+```
+class Contact(val id: Int, var email: String)
+
+fun main() {
+    val contact = Contact(1, "rakib@gmail.com")
+}
+
+```
+
+In the example:
+
+- Contact is a class.
+- contact is an instance of the Contact class.
+- id and email are properties.
+- id and email are used with the default constructor to create contact.
+
+# Data Classes
+
+Kotlin has data classes which are particularly useful for storing data.
+Data classes have the same functionality as classes, but they come automatically with additional member functions. These
+member functions allow you to easily print the instance to readable output, compare instances of a class, copy
+instances, and more
+
+```
+data class User(val name: String, val id: Int)
+```
