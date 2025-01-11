@@ -16,7 +16,7 @@ fun replaceVowelsV2(s: String): String {
     return s.replace(Regex("[aeiouAEIOU]"), "!");
 }
 
-//forEach
+//forEach loop example
 fun replaceVowelsV3(s: String): String {
     var output = "";
     s.forEach { char ->
