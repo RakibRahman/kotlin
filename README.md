@@ -84,3 +84,7 @@ data class User(val name: String, val id: Int)
 # Null safety
 
 - Kotlin uses null values when something is missing or not yet set.
+
+# Higher-Order Functions
+
+- A higher-order function is a function that takes another function as parameter and/or returns a function.
