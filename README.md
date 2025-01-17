@@ -49,6 +49,7 @@ Lambda expressions can be used in a number of ways. You can:
   In both cases, this syntax is called a `trailing lambda`.
 
 # Class
+A class defines properties and functions , it represents a blueprint for objects.
 
 Kotlin supports object-oriented programming with classes and objects. Objects are useful for storing data in your
 program. Classes allow you to declare a set of characteristics for an object. When you create objects from a class, you
